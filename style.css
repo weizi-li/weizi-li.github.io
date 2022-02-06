@@ -25,7 +25,9 @@ blockquote{border-left:2px solid #999; margin:0px; padding:0 6px 0 6px;}
 
 p{line-height: 24px; margin:30px auto; text-indent: 0px;}
 
-a{text-decoration: none;}
+a{text-decoration: none;} 
+a:link {color: #333; text-decoration: none;}
+a:visited {color: #333; text-decoration: none;}
 a:hover {color: #999; text-decoration: none;}
 
 #content{min-width: 20em; max-width: 30em; overflow: hidden; margin-top:60px; margin-left:64px; margin-right:14px; margin-bottom:0px;}	
