@@ -1,43 +1,74 @@
-/*   
-Theme Name: mnmlist
-Theme URI: http://mnmlist.com/theme/
-Description: A very clean minimalist theme, without comments, search, archives or other features.
-Author: Leo Babauta
-Author URI: http://mnmlist.com
-.
-This theme is uncopyrighted, free, and offered as is.
-.
-*/
+/* original theme URI: http://mnmlist.com/theme/ */
+/* color scheme: #333, #666, #999, #C0C0C0 */
 
-/*  
-color scheme: #333, #666, #999, #C0C0C0, #A5ABAB
-*/
+body{
+	background: #f2f2f2; 
+	font: 20px Hoefler Text, "Times New Roman", Times, serif; 
+	color: #333; 
+	line-height: 30px;}
 
-body{background: #f2f2f2; font: 20px Hoefler Text, "Times New Roman", Times, serif; color: #333; line-height: 30px;}
-h1 {font-family: Helvetica, sans-serif; font-size: 1.4em; color:#333; line-height:26px; font-weight:normal; padding: 5px 0px 10px 0px;}
-h2 {font-family: Helvetica, sans-serif; font-size: 1.2em; color:#333; line-height:26px; font-weight:normal; padding: 5px 0px 0px 0px;}
-h3 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 1em; color:#333;}	
-h4 {font-size: 9pt; color:#000;}
+h1 {
+	font-family: Helvetica, sans-serif; 
+	font-size: 1.4em; 
+	line-height: 26px; 
+	font-weight: normal; 
+	padding: 5px 0px 10px 0px;
+}
 
-img{border:none; height: 100%; width: 100%; object-fit: contain;}
-img a{border:none;}
-blockquote{border-left:2px solid #999; margin:0px; padding:0 6px 0 6px;}
+img {
+	height: 100%; 
+	width: 100%;
+}
 
-p{line-height: 24px; margin:30px auto; text-indent: 0px;}
+blockquote{
+	border-left: 2px solid #999; 
+	margin: 0px; 
+	padding: 0 6px 0 6px;
+}
 
-a{text-decoration: none;} 
-a:link {color: #333; text-decoration: none;}
-a:visited {color: #333; text-decoration: none;}
-a:hover {color: #999; text-decoration: none;}
+p {
+	line-height: 24px; 
+	margin: 30px auto; 
+}
 
-#content{min-width: 20em; max-width: 30em; overflow: hidden; margin-top:60px; margin-left:64px; margin-right:14px; margin-bottom:0px;}	
-.entry a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
-.entry a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
-.entry a:hover {color: #999; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0; text-decoration: none;}
-.entry strong{font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #555555;}
+a {
+	text-decoration: none;
+	color: #333; 
+}
 
-#footer{margin-left:115px; margin-bottom:100px;}
-#footer{clear: both;}
-#footer p{padding:4px 0;margin: 0; color: #666; font-size:14px; font-family:helvetica, sans-serif; letter-spacing:4px}
-#footer a{color: #999;text-decoration: none;}
-#footer a:hover{color: #C0C0C0;text-decoration: none;}
+a:hover {
+	color: #999; 
+}
+
+.content{
+	width: 30em; 
+	overflow: hidden; 
+	margin: 60px 14px 0 64px;
+}	
+
+.intro a {
+	border-width: 0 0 1px 0; 
+	border-style: none none solid none; 
+	border-color: #C0C0C0;
+}
+
+.footer {
+	margin: 0 100px 0 115px;
+}
+
+.footer p {
+	padding: 4px 0; 
+	margin: 0; 
+	font-family: helvetica, sans-serif; 
+	font-size: 14px; 
+	letter-spacing: 4px
+}
+
+.footer a {
+	color: #999;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #C0C0C0;
+}
