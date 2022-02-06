@@ -31,6 +31,10 @@ a:visited {color: #333; text-decoration: none;}
 a:hover {color: #999; text-decoration: none;}
 
 #content{min-width: 20em; max-width: 30em; overflow: hidden; margin-top:60px; margin-left:64px; margin-right:14px; margin-bottom:0px;}	
+.entry a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
+.entry a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
+.entry a:hover {color: #999; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0; text-decoration: none;}
+.entry strong{font-family: Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #555555;}
 
 #footer{margin-left:115px; margin-bottom:100px;}
 #footer{clear: both;}
