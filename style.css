@@ -7,6 +7,12 @@ body{
 	color: #222; 
 	line-height: 30px;}
 
+venue{
+	font: 18px Hoefler Text, "Times New Roman", Times, serif;  
+	color: #555;	
+	font-style: italic;
+}
+
 h1 {
 	font-family: Helvetica, sans-serif; 
 	font-size: 1.4em; 
@@ -41,7 +47,7 @@ a:hover {
 }
 
 .content{
-	width: 30em; 
+	width: 31em; 
 	overflow: hidden; 
 	margin: 60px 14px 0 64px;
 }	
