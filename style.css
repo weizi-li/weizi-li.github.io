@@ -33,7 +33,8 @@ blockquote{
 }
 
 mark { 
-  background-color: #C0C0C0;
+  	background-color: #C0C0C0;
+	color: #C0C0C0;
 }
 
 p {
