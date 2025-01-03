@@ -32,6 +32,10 @@ blockquote{
 	padding: 0 6px 0 6px;
 }
 
+mark { 
+  background-color: #C0C0C0;
+}
+
 p {
 	line-height: 26px; 
 	margin: 28px auto; 
