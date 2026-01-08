@@ -47,7 +47,7 @@ a:hover {
 }
 
 .content{
-	width: 30em; 
+	width: 28em; 
 	overflow: hidden; 
 	margin: 60px 14px 0 64px;
 }	
@@ -78,6 +78,7 @@ a:hover {
 .footer a:hover {
 	color: #C0C0C0;
 }
+
 
 
 
